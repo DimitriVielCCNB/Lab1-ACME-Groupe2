@@ -1,0 +1,15 @@
+*{
+    background-color: #C62B29;
+}
+
+.header{
+    text-align: center;
+}
+
+.header img{
+    align-items: center;
+}
+.hr{
+    background: solid #060807;
+    height: 2px;
+}
