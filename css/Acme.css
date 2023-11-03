@@ -1,27 +1,30 @@
-*{
+body{
     background-color: #C62B29;
     box-sizing: border-box;
 }
 
 .header{
-    display: block;
+   
     text-align: center;
 }
 
 .header img{
-    align-items: center;
+    display: flex;
     margin: 0 auto;
 }
 .hr{
+    display: flex;
     background: solid #060807;
     height: 2px;
 }
 
 
-.navbar li{
-    display: inline-block;
-    margin: 0 5px;
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 15px;
     
+
 
 }
 
@@ -29,10 +32,11 @@
     color: #060807;
     text-decoration: none;
     font-size: smaller;
+    
 }
 
-.navhover:hover{
-    color: whitesmoke;
+.navbar li{
+
 }
    
 .navbar ul{
@@ -40,14 +44,49 @@
     padding: 0;
     text-align: center;
 }
-
-.footer{
-    margin-top: auto;
-    background-color: #3AB7AF;
-    padding:0 20px;
-    text-align: center;
-    height: 60px;
     
+
+.navbar ul li{
+    display: inline-block;
+    margin-right: 14px;
     
 }
     
+
+
+.navhover:hover{
+    color: whitesmoke;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer{
+    background: #3AB7AF;
+    color: whitesmoke;
+    font-size: 10px;
+    padding: 20px 0 10px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+
+    min-width: 150px;
+    margin-bottom: 20px;
+    background-color: #3AB7AF;
+
+}
+
+.copyright{
+    text-align: center;
+}
