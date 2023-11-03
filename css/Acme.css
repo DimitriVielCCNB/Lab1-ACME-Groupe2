@@ -1,15 +1,53 @@
 *{
     background-color: #C62B29;
+    box-sizing: border-box;
 }
 
 .header{
+    display: block;
     text-align: center;
 }
 
 .header img{
     align-items: center;
+    margin: 0 auto;
 }
 .hr{
     background: solid #060807;
     height: 2px;
 }
+
+
+.navbar li{
+    display: inline-block;
+    margin: 0 5px;
+    
+
+}
+
+.navbar a{
+    color: #060807;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.navhover:hover{
+    color: whitesmoke;
+}
+   
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer{
+    margin-top: auto;
+    background-color: #3AB7AF;
+    padding:0 20px;
+    text-align: center;
+    height: 60px;
+    
+    
+}
+    
