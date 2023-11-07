@@ -5,5 +5,5 @@ ceci est requis afin de donner une répartition égale des tâches et pour évit
 
 Denis Page 1-2 
 Sidi Page 3-4 
-Maxime Caissie Page 5-6
+
 Mathis Page 7-9 
