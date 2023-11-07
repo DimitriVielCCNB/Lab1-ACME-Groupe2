@@ -159,6 +159,11 @@ blanc #FFFFFF */
    
     }
     
+    .email{
+        font-weight: bold;
+        text-decoration: underline;
+        
+    }
    
     .col-4 img{
     
