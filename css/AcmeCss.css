@@ -1,4 +1,12 @@
 /* THIS WILL APPLY TO ALL OF THE HTML DOCUMENT !   */
+
+/* Color Palet : 
+Rouge #C62B29
+Noir #060807
+Jaune #E7A80F
+bleu #3AB7AF
+blanc #FFFFFF */
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +16,12 @@
 
     body{
         font-family: 'PT Serif', serif;
+       
+        /* background-image: url(../pictures/background.jpg);
+        background-repeat:no-repeat;
+        background-size: cover;
+        */
+
     }
     
     
@@ -16,14 +30,14 @@
     .navbar{
         display: flex;
         align-items: center;
-        padding: 40px;
+        padding: 25px;
         background-color: #C62B29;
         
         
         
     }
     .navhover:hover{
-        color: black;
+        color: #3AB7AF;
     }
     
 
@@ -61,6 +75,22 @@
 
     p{
         color: #060807;
+    }
+
+    .p2{
+        color: #060807;
+        font-weight: bolder;
+        text-align: left;
+
+    }
+
+    .p3{
+        font-weight: lighter;
+    }
+
+    .subtitle{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     
   
@@ -103,7 +133,7 @@
     
     /* ---------------------------------- */
      .header{
-        background-color: #E7A80F;
+        background-image: linear-gradient(to bottom right, red, yellow);;
     } 
     
    
@@ -143,6 +173,11 @@
         margin-bottom: 40px;
     }
     
+    .p0{
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
     
    
     .title{
@@ -230,4 +265,24 @@
     .copyright{
         text-align: center;
     }
+/* bouton au bas de la page */
     
+    .bouton span{
+        
+        display: inline-block;
+        font-weight: bolder;
+        border: 2px solid #3AB7AF;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+       
+    }
+
+    .bouton:hover span:hover{
+        background-color: #060807;
+        color: whitesmoke;
+    }
