@@ -149,6 +149,21 @@ blanc #FFFFFF */
         padding-right: 25px;
         
     }
+
+    .box1{
+        width:300px;
+            
+    }
+
+
+    .box2{
+        height: 80px;
+        width: 300px;
+    }
+
+    .box-container{
+        text-align: left;
+    }
     
     
     .col-4{
