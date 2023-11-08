@@ -5,4 +5,5 @@ ceci est requis afin de donner une répartition égale des tâches et pour évit
 
 Denis Page 1-2-Form/About US (MAIN AND OVERALL LAYOUT) <br>
 Sidi Page 3-4 <br>
+Maxime Page 5-6 NOT COMPLETED <br>
 Mathis Page 7-9 <br>
