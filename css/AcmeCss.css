@@ -16,11 +16,6 @@ blanc #FFFFFF */
 
     body{
         font-family: 'PT Serif', serif;
-       
-        /* background-image: url(../pictures/background.jpg);
-        background-repeat:no-repeat;
-        background-size: cover;
-        */
 
     }
     
@@ -135,6 +130,8 @@ blanc #FFFFFF */
      .header{
         background-image: linear-gradient(to bottom right, red, yellow);;
     } 
+
+   
     
    
     .header .row{
