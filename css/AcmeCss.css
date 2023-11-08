@@ -52,7 +52,7 @@ blanc #FFFFFF */
         display: inline-block;
         margin-right: 12px;
     }
-    /* ---------------------------------- */
+    /* ----------------Containers and texts--------------- */
     
     .hr2{
         border: none;
@@ -126,7 +126,7 @@ blanc #FFFFFF */
         margin: 25px 0;
     }
     
-    /* ---------------------------------- */
+    /* -------------header----------------- */
      .header{
         background-image: linear-gradient(to bottom right, red, yellow);;
     } 
